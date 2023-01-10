@@ -1,0 +1,28 @@
+---
+images0:
+  - name: fedora34
+    base_image_name: Fedora-Cloud-Base-34-1.2.x86_64.qcow2
+    base_image_url: https://download.fedoraproject.org/pub/fedora/linux/releases/34/Cloud/x86_64/images/
+    base_image_sha: b9b621b26725ba95442d9a56cbaa054784e0779a9522ec6eafff07c6e6f717ea
+  - name: fedora37
+    base_image_name: Fedora-Cloud-Base-37-1.7.x86_64.qcow2
+    base_image_url: https://mirror.2degrees.nz/fedora/linux/releases/37/Cloud/x86_64/images/
+    base_image_sha: b5b9bec91eee65489a5745f6ee620573b23337cbb1eb4501ce200b157a01f3a0
+  - name: alma9
+    base_image_name: AlmaLinux-9-GenericCloud-latest.x86_64.qcow2
+    base_image_url: http://mirror.2degrees.nz/almalinux/9.1/cloud/x86_64/images/
+    base_image_sha: 1e93210a0c534de76ae01dc02e8224be14264fa8d54ad6cff9af15b673c6db1a
+
+images:
+  fedora34:
+    base_image_name: Fedora-Cloud-Base-34-1.2.x86_64.qcow2
+    base_image_url: https://download.fedoraproject.org/pub/fedora/linux/releases/34/Cloud/x86_64/images/
+    base_image_sha: b9b621b26725ba95442d9a56cbaa054784e0779a9522ec6eafff07c6e6f717ea
+  fedora37:
+    base_image_name: Fedora-Cloud-Base-37-1.7.x86_64.qcow2
+    base_image_url: https://mirror.2degrees.nz/fedora/linux/releases/37/Cloud/x86_64/images/
+    base_image_sha: b5b9bec91eee65489a5745f6ee620573b23337cbb1eb4501ce200b157a01f3a0
+  alma9:
+    base_image_name: AlmaLinux-9-GenericCloud-latest.x86_64.qcow2
+    base_image_url: http://mirror.2degrees.nz/almalinux/9.1/cloud/x86_64/images/
+    base_image_sha: 1e93210a0c534de76ae01dc02e8224be14264fa8d54ad6cff9af15b673c6db1a
